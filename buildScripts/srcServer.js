@@ -1,7 +1,9 @@
-const express = require('express');
-const path = require('path');
-const open  = require('open');
+// const express = require('express'); ES5
+import express from 'express';
+import path from 'path';
+import open  from'open';
 
+// var port = 3000; ES5
 const port = 3000;
 const app = express();
 
