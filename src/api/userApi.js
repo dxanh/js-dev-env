@@ -29,5 +29,5 @@ function onSuccess(response) {
 }
 
 function onError(error) {
-  console.log(error); // esline-disable-line no-console
+  console.log(error);
 }
